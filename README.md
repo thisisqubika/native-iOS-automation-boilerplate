@@ -14,6 +14,7 @@ Make sure you have the following tools and environments set up on your system be
   - Cocoapods (Optional): Will be needed if the project uses external packages
 
 ## Getting Started
+`cd` into `base-iOS-project`
 Run iOS Tests from terminal: ```make run-tests``` (You must be located on project root directory to run this command)
 For more information about the commands that are being executed to run the test check the Makefile
 
@@ -34,5 +35,5 @@ When the execution stops at the breakpoint, the terminal can be used to type `po
 - [iOS App Example: TAU iOS Automation course](https://testautomationu.applitools.com/introduction-to-ios-test-automation-with-xcuitest/)
 - [XCUITest resource and cheatsheet](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
 
-## App Examples
+## Base App Source
 - [iOS](https://github.com/Shashikant86/XCUITest-TAU)
