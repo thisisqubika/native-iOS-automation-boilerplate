@@ -16,10 +16,15 @@ Make sure you have the following tools and environments set up on your system be
 ## Getting Started
 - `cd` into `base-iOS-project`
 
-- Run iOS Tests from terminal: ```make run-tests``` (You must be located on project root directory to run this command)
+- Run iOS Tests from terminal: ```make run-tests``` (You must be located on project root directory to run this command) (root folder: **base-iOS-project**)
 For more information about the commands that are being executed to run the test check the Makefile
 
 ## Folder Structure
+- Automation code located at: 
+```
+base-iOS-project/TAUUITests/
+```
+
 - **AccessibilityIdentifiers**: Location for enums containing the ids used to get elements
 - **Base**: Setup and Teardown configuration
 - **Extensions**: Base interactions extending **XCElement** class
